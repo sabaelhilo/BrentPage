@@ -1,0 +1,164 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	color: #444444;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 32px;
+}
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	line-height: 1.4;
+	font-size: 15px;
+}
+.container {
+	padding: 50px 100px;
+}
+.container h2, 
+.container h3 {
+	color: #A8258D;
+}
+
+
+/* PAGE MENU
+-----------------------------------------*/
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid #434A5C;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+}
+.menu li {
+	display: inline-block;
+	padding: 20px 35px;
+}
+.menu a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.menu a.active {
+    color: #808080;
+}
+
+/* BANNER 
+-----------------------------------------*/
+
+.banner {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	/*background: url('../images/fadedMountainsPost.jpg');*/
+	background-attachment: fixed;
+	color: #ffffff;
+	text-align: center;
+}
+.banner h1 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: 	#383838;
+}
+.banner p {
+	font-size: 22px;
+	color: 	#808080;
+
+}
+
+/* ABOUT
+-----------------------------------------*/
+.about {
+	background-color: #F0F0F0;
+	overflow: hidden;
+}
+
+#aboutWrap {
+	text-align: center;
+}
+.about h2 {
+	text-align: center;
+	color: #383838;
+	margin-right: 20px;
+}
+
+.about ul li{
+	list-style-type: none;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+
+img.profile {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	float: left;
+	margin-right: 20px;
+}
+
+/* RESUME 
+-----------------------------------------*/
+.resume {
+	background-color: #ffffff;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.resume h2 {
+	text-align: center;
+	color: #383838;
+}
+
+#resumeWrap {
+	text-align: center;
+	height: 500px;
+}
+
+/* REEL 
+-----------------------------------------*/
+.reel {
+	text-align: center;
+	background-color:  #F0F0F0;
+}
+.reel h2 {
+	text-align: center;
+	color: #383838;
+}
+#reelWrap {
+	text-align: center;
+	height: 400px;
+}
+
+/* CONTACT 
+-----------------------------------------*/
+.contact {
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.contact h2 {
+	color: #383838;;
+}
+.contact img {
+	margin: 20px;
+}
+
