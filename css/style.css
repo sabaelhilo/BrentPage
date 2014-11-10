@@ -66,12 +66,18 @@ p {
 -----------------------------------------*/
 
 .banner {
+	margin-top: -10px;
 	padding-top: 200px;
 	padding-bottom: 100px;
-	/*background: url('../images/fadedMountainsPost.jpg');*/
-	background-attachment: fixed;
+	background: url('../images/treesMountPostBkgnd.jpeg');
+	background-repeat: no-repeat;
 	color: #ffffff;
 	text-align: center;
+	background-attachment: fixed;
+	background-position: center;
+}
+#bannerWrap {
+	margin-bottom: 50px;
 }
 .banner h1 {
 	text-transform: uppercase;
@@ -80,7 +86,7 @@ p {
 }
 .banner p {
 	font-size: 22px;
-	color: 	#808080;
+	color: 	#383838;
 
 }
 
